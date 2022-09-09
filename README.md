@@ -1,9 +1,11 @@
 
 
-> docker build -t react/docker .
+## Install docker compose
 
-> docker build -t jserver/docker . -f server.Dockerfile
+> sudo apt-get update
 
-> docker run -it -p 3000:8080 jserver/docker db.json
+> sudo apt-get install docker-compose-plugin
 
-> docker run -it -p 3001:3000 react/docker npm start
+## compose
+
+> docker compose up
